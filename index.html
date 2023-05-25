@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyVeg</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">    
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="../img/logo.png" alt="HealthyVeg logo" width="auto" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/planes.html">Planes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--fin de header-->
+    <main>
+        <!--carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./img/pexels-ella-olsson-1640774.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h1 class="textoCarousel">HealthyVeg</h1>
+                            <button><a href="#comoFunciona">Conocé como funciona</a></button>
+                        </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./img/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h2 class="textoCarousel">Viandas veganas y/o vegetarianas a domicilio</h2>
+                        <button><a href="#comoFunciona">Conocé como funciona</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./img/viand.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h2 class="textoCarousel">Viandas preparadas según tus gustos y necesidades nutricionales.</h2>
+                        <button><a href="#comoFunciona">Conocé como funciona</a></button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--fin carousel-->
+        <section id="comoFunciona" class="container">
+            <h2>¿Cómo funciona HealthyVeg?</h2>
+            <div class="pasos">
+                <img class="imgPasos" src="./img/Elegir.png" alt="unas manos están sosteniendo un celular que muestra las opciones de planes de healthyveg">
+                <div class="pasosInfo">
+                    <h3>1. Elegí tu plan</h3>
+                    <p>Ya sea que busques un plan para la familia o para cumplir tus metas en el gym, tenemos lo que estás buscando! Nuestros planes son 100% customizables y semana tras semana podés elegir los platos que quieras. <hr></p>
+                </div>
+            </div>
+            <div class="pasos">
+                <div class="pasosInfo">
+                    <h3>2. Recibí tu pedido</h3>
+                    <p>Todas las semanas vas a recibir tu pedido con las viandas que hayas elegido para esa semana, cada una incluye su infomacion nutricional.
+                    <br>Querés cambiar una comida o cancelar esa semana? No hay problema, se soluciona con un simple click.</p>
+                </div>
+                <img class="imgPasos" src="./img/Recibir.png" alt="Un hombre con chomba verde le entrega su pedido a la clienta">
+                <hr>
+            </div>
+            <div class="pasos">
+                <img class="imgPasos" src="./img/Comer.png" alt="persona comieno una ensalada">
+                <div class="pasosInfo">
+                    <h3>3. Disfrutar</h3>
+                    <p>Se terminó el tener que pensar en que vas a comer. Ahora podés ir a la heladera, elegir lo que tengas ganas de comer, calentarlo y disfrutar.<hr></p>
+                </div>
+            </div>
+            <div class="pasos">
+                <div class="pasosInfo">
+                    <h3>4. Reciclá la caja y los contenedores</h3>
+                    <p>Cuidar nuestro planeta es sumamente importante y reciclar es sencillo.
+                    Los contenedores en los que te llega tu comida están hechos de plastico biodegradable, sin embargo, cada vez que termines de comer limpiá y desechá los contenedores en el cesto correspondiente.</p>
+            </div>
+                <img class="imgPasos" src="./img/Reciclar.png" alt="caja con logo de reciclado">
+            </div>
+            <button type="button" id="redireccionar"><a href="./pages/planes.html">Ver planes!</a></button>
+        </section>
+    </main>
+    <footer>
+        <h4>Seguinos en redes sociales!</h4>
+        <a target="_blank" href="https://www.facebook.com/"><img src="./img/fb logo.webp" alt="logo de facebook" class="redes"></a>
+        <a target="_blank" href="https://twitter.com/"><img src="./img/tw logo.png" alt="logo de twitter" class="redes"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="./img/ig logo.png" alt="logo de instagram" class="redes"></a>
+    </footer>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>

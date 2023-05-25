@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyVeg - Planes</title>
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">    
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!--css-->
+        <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+<!--header-->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="HealthyVeg logo" width="auto" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./planes.html">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!--fin de header-->
+    <section>
+        <!--planes-->
+        <div id="planesTitulo">
+            <h2>Nuestros planes</h2>
+            <p>Nuestros planes son 100% hechos a medida. Podés elegir cuantas viandas querés, cuando querés recibirlas, podes customizar los platos para que se adapten a tus restricciones alimenticias e incluso que se adapten a tus requerimientos nutricionales. Comer rico, saludable y veggie nunca fue tan facil!</p>
+        </div>
+        <div id="planes">
+            <div class="plan">
+                <h3>Plan Vegan</h3>
+                <img src="../img/planVeg.jpg" alt="Se muestra un plato con una ensalada de lechuga, porotos alubia, alcaparras, lechuga y pepino" class="planImg">
+                <p>Platos ricos, variados y lo mas importante de todo, veganos!
+                    Este plan cuenta con una amplia variedad de recetas que va a hacer de la carne y los lacteos cosa del pasado!</p>
+                    <button> <a href="./pedirPlan.html">Me interesa!</a></button>
+            </div>
+            <div class="plan">
+                <h3>Plan Familiar</h3>
+                <img src="../img/planFam.jpg" alt="Se muestra un plato con unos medallones de verdura acompañados de una ensalada de repollo" class="planImg">
+                <p>Los niños pueden ser complicados a la hora de comer, por lo que este plan incluye platos nutritivos y ricos a los que ningun niño o adulto se puede resistir.</p>
+                <button> <a href="./pedirPlan.html">Me interesa!</a></button>
+            </div>
+            <div class="plan">
+                <h3>Plan Fitness</h3>
+                <img src="../img/planFit.jpg" alt="Se muestra un plato de seitán salteado con champiñones, zanahorias y tomates acompañados de verduras cortadas en rodajas" class="planImg">
+                <p>Todos sabemos que lo mas importante a la hora de entrenar es la nutrición. Con este plan podés contarnos tus objetivos y te armamos un plan que te ayuden a alcanzarlos.</p>
+                    <button> <a href="./pedirPlan.html">Me interesa!</a></button>
+            </div>
+        </div>
+    </section>
+    <section id="laCaja">
+        <img src="../img/caja.png" alt="mujer sosteniendo una caja">
+        <div id="contenidoCaja">
+            <h2>¿Que contiene cada caja?</h2>
+                <p id="insideCaja">- Platos hechos por profesionales con ingredientes de alta calidad<br>- Cada plato viene en un contenedor hecho con materiales biodegradables e incluye su informacion nutricional de forma clara<br>- La receta de los platos que hayas elegido para que lo puedas preparar en casa </p>
+        </div>
+    </section>
+    <div class="accordion" id="accordionExample">
+        <div>
+            <h2>Preguntas Frecuentes</h2>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cuando puedo recibir mi HealthyVeg box?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Los envios se cordinan teniendo en cuenta la disponibilidad del cliente. Una vez que elijas tu plan vas a poder elegir que dia de la semana y en que franja horaria querés recibir tu pedido.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Puedo cambiar cuando quiero recibir mi healthyVeg box?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body"> Si, cualquier modificación en cuanto a horarios de delivery es posible. Si querés adelantar el delivery tenés que comunicarte 4 dias antes de la fecha en que lo quieras recibir y si querés postergar el delivery tenés que contactarte 2 dias antes de tu fecha de entrega para poder hacer el cambio.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Puedo saltear una semana el delivery de mi HealthyVeg box?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body"> Si, con nuestro servicio de suscripción podés cancelar o pausar cuando quieras. Si no querés que te enviemos las viandas en una semana en especifico podés pausar la suscripción hasta 72 horas antes de la fecha elegida de delivery. En caso de que quieras cancelar tu suscripción el plazo también es de 72 horas antes de la fecha en que deberias recibir tu HealthyVeg box.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    ¿Las viandas de HealthyVeg incluyen informacion nutricional y de calorias?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body"> Absolutamente! Cada contenedor viene etiquetado con toda la informacion necesaria como ingredientes, cantidad de calorias, carbohidratos, proteina, sodio, grasas saturadas e insaturadas, colesterol y mas!
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h4>Seguinos en redes sociales!</h4>
+        <a target="_blank" href="https://www.facebook.com/"><img src="../img/fb logo.webp" alt="logo de facebook" class="redes"></a>
+        <a target="_blank" href="https://twitter.com/"><img src="../img/tw logo.png" alt="logo de twitter" class="redes"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="../img/ig logo.png" alt="logo de instagram" class="redes"></a>
+    </footer>
+        <!--bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
