@@ -1,0 +1,75 @@
+.card-img-overlay{
+    h2{
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 2rem;
+    }
+    div{
+        div{
+            margin-top: 1%;
+            h3{
+                font-size: 2rem;
+                font-weight: bolder;
+            }
+            p{
+                padding-top: 1%;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+.container-md{
+    width: 70%;
+    h2{
+        margin-top: 3%;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        font-size: 1.5rem;
+        text-align: justify;
+        margin-bottom: 3%;
+    }
+    #cadenaViaje{
+        display: flex;
+        justify-content: space-between;
+        div{            
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            margin:0;
+            p{
+                font-size: 1.3rem;
+                margin: 0;
+            }
+        }
+    }
+    #contMasInfo{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: auto auto auto;
+        grid-column-gap: 1%;
+        margin-top: 8%;
+        .masInfo{
+            padding: 8%;
+            text-align: center;
+            font-size: 1.5rem;
+            img{
+                width: 90%;
+                border-radius: 70%;
+            }
+            h4{
+                font-weight: bold;
+                margin-top: 1%;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

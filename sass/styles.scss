@@ -1,3 +1,15 @@
-p{
-    color: red;
+$verde: #8cc63f;
+$verde_claro: #ECF6E0;
+
+@use 'index';
+@use 'planes';
+@use 'nosotros';
+@use 'forms';
+@use 'assets/header';
+@use 'assets/footer';
+
+*{
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+    margin:0;
 }
