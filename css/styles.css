@@ -30,34 +30,34 @@
   font-size: 4rem;
   text-align: center;
 }
-.container div {
+.container .pasos {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.container div div {
+.container .pasos .imgPasos {
   display: flex;
   flex-direction: column;
 }
-.container div div img {
+.container .pasos .imgPasos img {
   width: 90%;
 }
-.container div div {
+.container .pasos .pasosInfo {
   width: 40%;
   text-align: justify;
 }
-.container div div h3 {
+.container .pasos .pasosInfo h3 {
   text-align: center;
   padding-top: 5%;
   font-size: 2.2rem;
 }
-.container div div p {
+.container .pasos .pasosInfo p {
   padding-top: 10%;
   font-size: 1.8rem;
 }
 .container button {
   background-color: white;
-  border: solid #8CC63F;
+  border: solid #8cc63f;
   border-radius: 9px;
   width: 20%;
   position: relative;
@@ -65,12 +65,71 @@
   margin-bottom: 2%;
 }
 .container button a {
-  color: #8CC63F;
+  color: #8cc63f;
   font-size: 2rem;
   text-decoration: none;
   font-weight: bolder;
 }
 
+@media screen and (min-width: 1100px) {
+  .textoCarousel {
+    font-size: 3rem;
+  }
+  .container h2 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 770px) {
+  .carousel-item img {
+    margin-top: 3rem;
+  }
+  .carousel-item div .textoCarousel {
+    font-size: 2.5rem;
+  }
+  .container h2 {
+    font-size: 2rem;
+  }
+  .container .pasos .pasosInfo h3 {
+    font-size: 1.8rem;
+  }
+  .container .pasos .pasosInfo p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .carousel-item img {
+    margin-top: 4rem;
+  }
+  .carousel-item div .textoCarousel {
+    font-size: 2rem;
+  }
+  .container {
+    width: 90%;
+  }
+  .container h2 {
+    font-size: 2rem;
+  }
+  .container .pasos {
+    display: block;
+  }
+  .container .pasos .imgPasos {
+    width: 80%;
+    position: relative;
+    left: 50px;
+  }
+  .container .pasos .pasosInfo {
+    width: 100%;
+  }
+  .container .pasos .pasosInfo h3 {
+    padding-top: 1%;
+  }
+  .container .pasos .pasosInfo p {
+    padding-top: 5%;
+  }
+  .container button a {
+    font-size: 1.2rem;
+  }
+}
 #planesTitulo {
   margin-top: 8rem;
   text-align: center;
@@ -113,8 +172,8 @@
   font-size: 1.5rem;
 }
 #planes div button {
-  background-color: #8CC63F;
-  border: solid #8CC63F;
+  background-color: #8cc63f;
+  border: solid #8cc63f;
   border-radius: 9px;
   width: 90%;
   margin-bottom: 2%;
@@ -167,23 +226,70 @@
   font-size: 2.5rem;
 }
 
-.card-img-overlay h2 {
+@media screen and (min-width: 1100px) {
+  #planes {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 770px) {
+  #planes {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .accordion {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #planes {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #laCaja {
+    display: block;
+    width: 90%;
+    position: relative;
+    left: 10%;
+  }
+  #laCaja img {
+    width: 90%;
+  }
+  #laCaja div {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  #laCaja div h2 {
+    text-align: center;
+  }
+  #laCaja div p {
+    font-size: 1.5rem;
+  }
+  .accordion {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+.card .card-img-overlay .card-title {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  margin-top: 7rem;
 }
-.card-img-overlay p {
+.card .card-img-overlay p {
   text-align: center;
   font-size: 2rem;
 }
-.card-img-overlay div div {
+.card .card-img-overlay div div {
   margin-top: 1%;
 }
-.card-img-overlay div div h3 {
+.card .card-img-overlay div div h3 {
   font-size: 2rem;
   font-weight: bolder;
 }
-.card-img-overlay div div p {
+.card .card-img-overlay div div p {
   padding-top: 1%;
   font-size: 1.5rem;
 }
@@ -240,6 +346,80 @@
   font-size: 1.3rem;
 }
 
+@media screen and (min-width: 1100px) {
+  .card img {
+    margin-top: 3rem;
+  }
+  .card div h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 770px) {
+  .card img {
+    margin-top: 7rem;
+  }
+  .card div h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .card div p {
+    font-size: 1rem;
+  }
+  .card div div div h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .container-md {
+    width: 80%;
+  }
+  .container-md #contMasInfo {
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 16%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card img {
+    margin-top: 7rem;
+  }
+  .card div {
+    background-color: gray;
+    opacity: 80%;
+  }
+  .card div h2 {
+    margin-top: 4.5rem;
+    font-size: 0.8rem;
+  }
+  .card div p {
+    font-size: 0.8rem;
+  }
+  .card div div div h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .container-md {
+    width: 90%;
+  }
+  .container-md #cadenaViaje {
+    display: block;
+  }
+  .container-md #cadenaViaje div {
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+  .container-md #cadenaViaje div p {
+    font-size: 1.2rem;
+  }
+  .container-md #contMasInfo {
+    display: block;
+    width: 80%;
+    position: relative;
+    left: 12%;
+  }
+}
 .mensajeForms {
   margin-top: 8rem;
   text-align: center;
@@ -290,7 +470,7 @@ form .requisito .form-text {
   font-size: 1.2rem;
 }
 form .btn {
-  background-color: #8CC63F;
+  background-color: #8cc63f;
   color: white;
   width: 10%;
   font-size: 1.5rem;
@@ -305,6 +485,34 @@ form .btn {
   width: 100%;
 }
 
+@media screen and (min-width: 1100px) {
+  .container-sm {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 770px) {
+  .container-sm {
+    width: 80%;
+  }
+  .container-sm button {
+    width: 15%;
+    font-size: 1.3rem;
+    position: relative;
+    left: 75%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container-sm {
+    width: 90%;
+    margin-bottom: 30%;
+  }
+  .container-sm button {
+    width: 15%;
+    font-size: 1.3rem;
+    position: relative;
+    left: 75%;
+  }
+}
 header nav div {
   background-color: white;
 }
