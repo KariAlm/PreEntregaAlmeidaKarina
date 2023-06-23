@@ -14,16 +14,17 @@ $verde: #8cc63f;
         font-weight: bold;
     }
     button{
-        padding: 5px;
+        padding: 1rem;
         border: none;
         border-radius: 8px;
         background-color: white;
         opacity: 90%;
+        margin-bottom: 1rem;
         a{
             color: gray;
             font-weight: bolder;
             font-family: 'Quicksand', sans-serif;
-            font-size: 1.8rem;
+            font-size: 2rem;
             text-decoration: none;
         }
     }
@@ -72,6 +73,7 @@ $verde: #8cc63f;
             transform: scale(1.5);
         }
         a{
+            display: block;
             color:$verde;
             font-size: 2rem;
             text-decoration: none;
