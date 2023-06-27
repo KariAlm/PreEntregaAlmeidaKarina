@@ -603,9 +603,15 @@ footer {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+footer h4 {
+  font-size: 2rem;
+}
 footer a img {
   width: 30px;
   margin: 3px;
+}
+footer p {
+  font-size: 1.3rem;
 }
 
 * {
